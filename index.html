@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-touch-fullscreen" content="yes"  />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no">
+		<title>商城应用</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css"/>
+</head>
+<body>
+	<nav id="nav">
+		<ul class="navlist clearfix">
+			<li id="nav_1"><a href="index.html"><span class="active"></span></a></li>
+			<li id="nav_2"><a href="htmls/cart.html"><span></span></a><div class="cartnums">0</div></li>
+			<li id="nav_3"><a href="htmls/user.html"><span></span></a></li>
+			<li id="nav_4"><a href="htmls/info.html"><span></span></a></li>
+		</ul>		
+	</nav>
+	<section class="indexslider">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img src="images/sliderbanner/1.jpg"/>
+		        	<div class="bottomWrap">
+		        		<div class="leftSlide">
+		        			<p>火爆价&nbsp;<span>44元</span></p>
+		        			<p>楼兰蜜语薄皮核桃500gx2袋新疆特产可做大枣夹核桃仁坚果原味干果</p>
+		        		</div>
+		        		<a href="#">立即购买</a>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="images/sliderbanner/2.jpg"/>
+		        	<div class="bottomWrap">
+		        		<div class="leftSlide">
+		        			<p>火爆价&nbsp;<span>500元</span></p>
+		        			<p>这是非常好吃的核桃啊啊啊啊啊11111111111111</p>
+		        		</div>
+		        		<a href="#">立即购买</a>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="images/sliderbanner/3.jpg"/>
+		        	<div class="bottomWrap">
+		        		<div class="leftSlide">
+		        			<p>火爆价&nbsp;<span>500元</span></p>
+		        			<p>这是非常好吃的核桃啊啊啊啊啊11111111111111</p>
+		        		</div>
+		        		<a href="#">立即购买</a>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="images/sliderbanner/4.jpg"/>
+		        	<div class="bottomWrap">
+		        		<div class="leftSlide">
+		        			<p>火爆价&nbsp;<span>50元</span></p>
+		        			<p>Olay玉兰油多效修护3件化妆品套装 补水保湿洁面水乳护肤套装女</p>
+		        		</div>
+		        		<a href="#">立即购买</a>
+		        	</div>
+		        </div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		</div>
+	</section>
+	<section class="productList" id='productList'>
+		<ul>
+			<li>
+				<div class="triangle_zs"></div>
+				<span class="tip">专属</span>
+				<div class="leftImg"><!--<img src="images/sliderbanner/2.jpg"/>--><canvas data-src="images/sliderbanner/2.jpg"></canvas></div>
+				<div class="rightContent">
+					<p class="title">机械键盘</p>
+					<p class="introduce">雷柏v500 RGB机械游戏键盘 机械键盘 黑轴 青轴合金87键 有线背光</p>
+					<p class="price">价格：<span class="greenPrice">￥550</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="triangle_rx"></div>
+				<span class="tip">热销</span>
+				<div class="leftImg"><!--<img src="images/sliderbanner/1.jpg"/>--><canvas data-src="images/sliderbanner/1.jpg"></canvas></div>
+				<div class="rightContent">
+					<p class="title">美味核桃</p>
+					<p class="introduce">楼兰蜜语薄皮核桃500gx2袋新疆特产可做大枣夹核桃仁坚果原味干果</p>
+					<p class="price">价格：<span class="greenPrice">￥30</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="triangle_xg"></div>
+				<span class="tip">限购</span>
+				<div class="leftImg"><!--<img src="images/sliderbanner/3.jpg"/>--><canvas data-src="images/sliderbanner/3.jpg"></canvas></div>
+				<div class="rightContent">
+					<p class="title">家具生活</p>
+					<p class="introduce">维莎日式1.5/1.8米纯实木白橡木双人床环保卧室家具欧式现代简约</p>
+					<p class="price">价格：<span class="greenPrice">￥5300</span></p>
+				</div>
+			</li>
+			<li>
+				<div class="triangle_rx"></div>
+				<span class="tip">专属</span>
+				<div class="leftImg"><!--<img src="images/sliderbanner/4.jpg"/>--><canvas data-src="images/sliderbanner/4.jpg"></canvas></div>
+				<div class="rightContent">
+					<p class="title">Olay玉兰油</p>
+					<p class="introduce">Olay玉兰油多效修护3件化妆品套装 补水保湿洁面水乳护肤套装女</p>
+					<p class="price">价格：<span class="greenPrice">￥44</span></p>
+				</div>
+			</li>
+		</ul>
+	</section>
+	
+	<script src="js/libs/require.js" data-main="js/views/enter/config.js"></script>
+</body>
+</html>

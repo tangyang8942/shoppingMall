@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-touch-fullscreen" content="yes"  />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no">
+		<title>产品详情</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" href="../css/index.css" />
+	</head>
+	<body>
+		<nav id="nav">
+			<ul class="navlist clearfix">
+				<li id="nav_1"><a href="../index.html"><span></span></a></li>
+				<li id="nav_2"><a href="#"><span class="active"></span></a><div class="cartnums">0</div></li>
+				<li id="nav_3"><a href="user.html"><span></span></a></li>
+				<li id="nav_4"><a href="info.html"><span></span></a></li>
+			</ul>		
+		</nav>
+		<section class="order">
+			<h3 class="manageAddress">管理收货地址</h3>
+			<div class="addressList">
+				<h4>收货人地址</h4>
+				<ul>
+					<li class="radioAddr fl"><input type="radio" checked="checked"></input></li>
+					<li class="mainAddr">上海市 虹口区 临潼路255号上海兴安得力软件有限公司</li>
+					<li class="namePhone"><b>姓名：</b>黄豆豆&nbsp;&nbsp;&nbsp;<b>手机：</b>12345678909</li>
+				</ul>
+				<ul>
+					<li class="radioAddr fl"><input type="radio"></input></li>
+					<li class="mainAddr">浙江省 杭州市 江干区 下沙高教园区</li>
+					<li class="namePhone"><b>姓名：</b>周杰伦&nbsp;&nbsp;&nbsp;<b>手机：</b>13432541611</li>
+				</ul>
+				<ul>
+					<li class="radioAddr fl"><input type="radio" name="showNewAddr"></input></li>
+					<li class="mainAddr noborder">使用新地址</li>
+				</ul>
+				<div class="newAddr" style="display: none;">
+					<div>
+						<p>收货人姓名：</p>
+						<input type="text" name="" id="" value="" />
+					</div>
+					<div>
+						<p>所在地区：</p>
+						<div>
+							<select name="sheng"></select>
+							<select name="shi"></select>
+							<select name="qu"></select>
+						</div>
+					</div>
+					<div>
+						<p>详细地址：</p>
+						<input type="text" name="" id="" value="" />
+					</div>
+					<div>
+						<p>手机号码：</p>
+						<input type="text" name="" id="" value="" />
+					</div>
+					<div>
+						<label>
+							<input type="checkbox" name="" id="" value="" />&nbsp;自动保存收货地址
+							<span>&nbsp;(&nbsp;选择后该地址将会保存到您的收货地址列表&nbsp;)&nbsp;</span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="invoice">
+				<h4>发票信息</h4>
+				<label for="invoice1"><input type="checkbox" name="" id="invoice1" value="" />&nbsp;&nbsp;是否开发票</label>
+			</div>
+			<div class="goodsList">
+				<h4>商品清单</h4>
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tr class="title">
+						<td width="50%">商品名称</td>
+                    	<td width="25%">数量</td>
+                    	<td width="25%">小计</td>
+					</tr>
+					<tr class="list">
+						<td width="50%" class="goods"><a href="#">机械键盘</a></td>
+                    	<td width="25%">1</td>
+                    	<td width="25%">350</td>
+					</tr>
+					<tr class="list">
+						<td width="50%" class="goods"><a href="#">Olay保湿品</a></td>
+                    	<td width="25%">2</td>
+                    	<td width="25%">432</td>
+					</tr>
+					<tr class="list">
+						<td width="50%" class="goods"><a href="#">新疆大核桃</a></td>
+                    	<td width="25%">3</td>
+                    	<td width="25%">56</td>
+					</tr>
+				</table>
+			</div>
+			<div class="leaveMsg">
+				<h4>给卖家留言</h4>
+				<textarea name="" rows="3" cols=""></textarea>
+			</div>
+		</section>
+		<section class="toOrder clearfix">
+			<div class="fl allPrice">总价：<span>￥20000</span></div>
+			<a href="#"><div class="fr toOrderBtn">提交订单</div></a>
+		</section>
+		
+		
+		<script src="../js/libs/require.js" data-main="../js/views/enter/config.js"></script>
+	</body>
+</html>
